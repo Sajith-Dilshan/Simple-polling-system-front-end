@@ -2,7 +2,7 @@
 <div id="wrapper">
   <form>
   <h1>Polling System for Board Meeting</h1>
-  <input name="txt-name" class="form-control" type="text" placeholder="Enter your name" [(ngModel)]="name">
+  <input #txtName name="txt-name" class="form-control" type="text" placeholder="Enter your name" [(ngModel)]="name">
   <div id="button-wrapper">
     <button class="btn btn-primary" (click)="enter()">🔐 Enter</button>
 
