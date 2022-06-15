@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashbordComponent implements OnInit {
 
+  polls: Array<number> = []
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  createPoll() {
+    this.polls.push(1);
   }
 
 }
